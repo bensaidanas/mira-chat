@@ -90,7 +90,6 @@ export type Message = {
     const handleChatSelect = (id: string) => {
       console.log(`Selected chat: ${id}`);
       setIsSideMenuOpen(false);
-      // Here you would typically load the selected chat
     };
   
     const handleOutsidePress = () => {
