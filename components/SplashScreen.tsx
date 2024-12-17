@@ -31,7 +31,7 @@ const SplashScreen: React.FC = () => {
   return (
     <View style={[styles.container, { backgroundColor: colors.background }]}>
       <Animated.View style={[styles.circle, { backgroundColor }]} />
-      <Text style={[styles.title, { color: colors.text }]}>Mira</Text>
+      <Text style={[styles.title, { color: colors.text }]}>Lira</Text>
     </View>
   );
 };

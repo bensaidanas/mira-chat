@@ -20,7 +20,7 @@ const Header: React.FC<HeaderProps> = ({ onMenuPress, onNewChatPress, showNewCha
           <TouchableOpacity onPress={onMenuPress} style={styles.menuButton}>
             <MenuIcon size={24}  />
           </TouchableOpacity>
-          <Text style={[styles.title, { color: colors.text }]}>Mira</Text>
+          <Text style={[styles.title, { color: colors.text }]}>Lira</Text>
         </View>
         <View style={styles.rightContainer}>
           {showNewChatIcon && (
