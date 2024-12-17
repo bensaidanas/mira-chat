@@ -47,8 +47,7 @@ export default function RootLayout() {
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
 
       <StatusBar
-        // Light text for dark background
-        backgroundColor="#000000" // Set the status bar background color
+        backgroundColor="#000000" 
       />
 
       <ChatScreen />
